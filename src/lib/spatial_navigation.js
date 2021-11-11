@@ -571,7 +571,6 @@ function getSectionDefaultElement(sectionId) {
 }
 
 function getSectionLastFocusedElement(sectionId) {
-  debugger
   const secs = Object.keys(_sections);
   var lastFocusedElement;
   if(secs.length && secs.includes(sectionId)){
